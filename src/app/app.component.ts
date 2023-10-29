@@ -3,7 +3,7 @@ import { Apollo, gql } from 'apollo-angular';
 import { Observable, map, take } from 'rxjs';
 
 const GET_ACTORS = gql`
-  {
+  subscription Actors{
     actors {
       id
       exampleField
